@@ -24,11 +24,6 @@ baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
-enable_responsive_images: false # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537) 
-
-imagemagick: 
- enabled: false # make it 'false' if not using responsive images 
-
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
@@ -45,7 +40,7 @@ navbar_fixed: true
 footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 1400px
 
 # TODO: add layout settings (single page vs. multi-page)
 
