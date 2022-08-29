@@ -9,7 +9,7 @@ nav_order: 4
 
 #### Carnegie Mellon University
 Provided office hours, co-delivered lectures and recitations, designed and marked assignments for the graduate courses:
-- [Natural Language Processing (11-411/11-611)](http://demo.clab.cs.cmu.edu/NLP/) instructed by David R. Mortensen and Lori Levin
+- [Intermediate Deep Learning](https://rsalakhucmu.github.io/10417-22/) instructed by Ruslan Salakhutdinov
 - [Multilingual Natural Language Processing (11-737)](http://phontron.com/class/multiling2022/) instructed by Graham Neubig, Alan W. Black, and Shinji Watanabe
 - [Data Science Seminar (11-631)](https://www.coursicle.com/cmu/courses/LTI/11631/) instructed by Eric H. Nyberg and Lori Levin
 
