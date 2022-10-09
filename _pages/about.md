@@ -21,7 +21,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am a first-year Masters student at [Carnegie Mellon University](https://www.cmu.edu/) pursuing an MS in Artificial Intelligence and Innovation. I am currently a Machine Learning intern in the Search Quality team at [Apple](https://machinelearning.apple.com/). 
+I am a second-year Masters student at [Carnegie Mellon University](https://www.cmu.edu/) pursuing an MS in Artificial Intelligence and Innovation. Last summer, I completed an applied machine learning research internship in the Search Quality team at [Apple](https://machinelearning.apple.com/), where I implemented a GraphSAGE Graph Neural Network to suggest related questions for Siri search and web answers.
 
 In the summer of 2021, I graduated top of my class with a high first from [The University of Edinburgh](https://www.ed.ac.uk/) with a BSc (Hons) in Artificial Intelligence and Computer Science. My [undergraduate honors thesis](https://project-archive.inf.ed.ac.uk/ug4/20212502/ug4_proj.pdf) on mitigating dataset bias in computer vision by artificially generating data from minority classes using GANs under the supervision of [Ajitha Rajan](https://homepages.inf.ed.ac.uk/arajan/) received an outstanding paper classification. My research interests lie in machine learning and computational linguistics with a focus in fairness, accountability, transparency, and ethics (FATE).
 
