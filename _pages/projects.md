@@ -11,6 +11,10 @@ horizontal: false
 
 <h2 class="year" >2022</h2>
 <!-- <br> -->
+<b>Causal Reasoning through Conceptual Explanation Generation</b><br>
+Athiya Deviyani, Mehak Malik, Prasoon Varshney<br>
+[pdf](/assets/pdf/causality.pdf)
+<p style="font-size: 3px !important"></p>
 <b>Men Have Feelings Too: Debiasing Sentiment Analyzers using Sequence Generative Adversarial Networks</b><br>
 Athiya Deviyani, Mehak Malik, Haris Widjaja, Dan Hoskins<br>
 [pdf](/assets/pdf/Men_Have_Feelings_Too.pdf)&nbsp;|&nbsp;[code](https://github.com/athiyadeviyani/compethics-project)
