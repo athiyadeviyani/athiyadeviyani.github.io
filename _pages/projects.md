@@ -17,7 +17,7 @@ Athiya Deviyani, Abuzar Khan, Prasoon Varshney, Njall Skarphedinsson<br>
 <p style="font-size: 3px !important"></p>
 <b>Causal Reasoning through Conceptual Explanation Generation</b><br>
 Athiya Deviyani, Mehak Malik, Prasoon Varshney<br>
-[pdf](/assets/pdf/causality.pdf)
+[pdf](/assets/pdf/causality.pdf)&nbsp;|&nbsp;[poster](/assets/pdf/causality_poster.pdf)
 <p style="font-size: 3px !important"></p>
 <b>Men Have Feelings Too: Debiasing Sentiment Analyzers using Sequence Generative Adversarial Networks</b><br>
 Athiya Deviyani, Mehak Malik, Haris Widjaja, Dan Hoskins<br>
