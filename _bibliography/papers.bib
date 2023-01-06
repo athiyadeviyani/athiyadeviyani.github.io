@@ -1,15 +1,28 @@
 --
 --
 
+@inproceedings{deviyani2022feelings,
+  abbr={AAAI},
+  abstract={Natural Language Processing (NLP) models often magnify biases with respect to race, gender and age present in datasets that they are trained on. Furthermore, it is becoming increasingly challenging to collect an unbiased dataset given that sexist and racist content are ubiquitous in common sources of data such as social media. In this work, we propose a Generative Adversarial Network-based approach to augment a sentiment analysis dataset to mitigate the gender biases present in the original dataset. Ultimately, by evaluating on a downstream sentiment analysis task using a model trained on the augmented dataset, we show that our method successfully reduces the disparity between the sentiment scores across the different genders, while maintaining the overall model performance.},
+  title={Men Have Feelings Too: Debiasing Sentiment Analyzers using Sequence Generative Adversarial Networks},
+  author={Athiya Deviyani, Mehak Malik, Haris Widjaja, and Dan Hoskins},
+  year={2023},
+  month={February},
+  url={https://www.athiyadeviyani.com/assets/pdf/Men_Have_Feelings_Too.pdf},
+  pdf={https://www.athiyadeviyani.com/assets/pdf/Men_Have_Feelings_Too.pdf},
+  booktitle = {AAAI'23 Workshop on Artificial Intelligence for Social Good},
+  selected={true}
+}
+
 @inproceedings{deviyani2022text,
   abbr={INTERSPEECH},
   abstract={Most text-to-speech systems suffer from the limitation that its inputs should be a set of strings of characters with standard pronunciation, and struggle when given input is in the form of symbols, numbers, or abbreviations that often occur in real text. One of the most common ways to address this problem is to automatically map non-standard words to standard words using statistical, neural and rule-driven methods. However, despite the significant efforts of normalizing such words, there is just too much variability in existing corpora such that it is extremely challenging to capture edge cases. In this work, we propose a tool which aids data collection from (non-programmer) native speakers to allow numbers and other common non-standard words to be mapped to standard words that can be pronounced correctly by a synthesizer, while addressing related problems such as identifying common non-standard words appear in text and how do we ask questions from native speakers to get sufficient information to allow a useful normalization of non-standard words.},
   title={Text Normalization for Speech Systems for All Languages},
-  author={Deviyani, Athiya and Black, Alan W.},
+  author={Athiya Deviyani and Alan W. Black},
   year={2022},
-  month={June},
-  url={https://drive.google.com/file/d/16c368KeYkK3mbfS6dTpL0eRVEVNRFE7k/view},
-  pdf={https://drive.google.com/file/d/16c368KeYkK3mbfS6dTpL0eRVEVNRFE7k/view},
+  month={September},
+  url={https://www.isca-speech.org/archive/pdfs/s4sg_2022/deviyani22_s4sg.pdf},
+  pdf={https://www.isca-speech.org/archive/pdfs/s4sg_2022/deviyani22_s4sg.pdf},
   booktitle = {INTERSPEECH'22 Workshop on Speech for Social Good},
   selected={true}
 }
@@ -18,7 +31,7 @@
   abbr={UoE},
   abstract={A biased dataset is a dataset that generally has attributes with an uneven class distribution. These biases have the tendency to propagate to the models that train on them, often leading to a poor performance in the minority class. In this project, we will explore the extent to which various data augmentation methods alleviate intrinsic biases within the dataset. We will apply several augmentation techniques on a sample of the UTKFace dataset, such as undersampling, geometric transformations, variational autoencoders (VAEs), and generative adversarial networks (GANs). We then trained a classifier for each of the augmented datasets and evaluated their performance on the native test set and on external facial recognition datasets. We have also compared their performance to the state-of-the-art attribute classifier trained on the FairFace dataset. Through experimentation, we were able to find that training the model on StarGAN-generated images led to the best overall performance. We also found that training on geometrically transformed images lead to a similar performance with a much quicker training time. Additionally, the best performing models also exhibit a uniform performance across the classes within each attribute. This signifies that the model was also able to mitigate the biases present in the baseline model that was trained on the original training set. Finally, we were able to show that our model has a better overall performance and consistency on age and ethnicity classification on multiple datasets when compared with the FairFace model.},
   title={Assessing Dataset Bias in Computer Vision},
-  author={Deviyani, Athiya},
+  author={Athiya Deviyani},
   year={2021},
   month={June},
   url={https://project-archive.inf.ed.ac.uk/ug4/20212502/ug4_proj.pdf},
