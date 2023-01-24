@@ -9,8 +9,8 @@ nav_order: 4
 
 #### Carnegie Mellon University
 Provided office hours, co-delivered lectures and recitations, designed and marked assignments for the graduate courses:
-- [Advanced Deep Learning (10-707)](https://deeplearning-cmu-10707-2022spring.github.io) instructed by Ruslan Salakhutdinov
-- [Computational Ethics for NLP (11-830)](https://strubell.github.io/teaching/11-830/) instructed by Maarten Sap and Emma Strubell
+- [Advanced Deep Learning (10-707)](https://machinelearningcmu.github.io/S23-10707/) instructed by Ruslan Salakhutdinov
+- [Computational Ethics for NLP (11-830)](https://maartensap.com/11-830-Spring2023/) instructed by Maarten Sap and Emma Strubell
 - [Intermediate Deep Learning (10-617)](https://rsalakhucmu.github.io/10417-22/) instructed by Ruslan Salakhutdinov
 - [Multilingual Natural Language Processing (11-737)](http://phontron.com/class/multiling2022/) instructed by Graham Neubig, Alan W. Black, and Shinji Watanabe
 - [Data Science Seminar (11-631)](https://www.coursicle.com/cmu/courses/LTI/11631/) instructed by Eric H. Nyberg and Lori Levin
