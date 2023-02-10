@@ -27,6 +27,6 @@ At CMU, I had the opportunity to conduct research and collaborate with [Prof. Al
 
 <!-- In spring 2022, I conducted research under [Alan W. Black](http://www.cs.cmu.edu/~awb/) to develop tools and explore methodologies for generalizable text normalization for speech systems.  -->
 
-Last summer, I completed an applied machine learning research internship in the Search Quality team at [Apple](https://machinelearning.apple.com/), where I implemented a GraphSAGE Graph Neural Network to suggest related questions for Siri search and web answers. Previously, I have worked as an intern at Goldman Sachs, Google, YouTube, Amazon, and JP Morgan. 
+<!-- Last summer, I completed an applied machine learning research internship in the Search Quality team at [Apple](https://machinelearning.apple.com/), where I implemented a GraphSAGE Graph Neural Network to suggest related questions for Siri search and web answers. Previously, I have worked as an intern at Goldman Sachs, Google, YouTube, Amazon, and JP Morgan.  -->
 
-The best way to contact me is through email (adeviyan \[at\] cs \[dot\] cmu \[dot\] edu) but feel free to hit me up on [Twitter](https://twitter.com/AthiyaD).
+<!-- The best way to contact me is through email (adeviyan \[at\] cs \[dot\] cmu \[dot\] edu) but feel free to hit me up on [Twitter](https://twitter.com/AthiyaD). -->
