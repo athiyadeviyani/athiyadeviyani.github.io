@@ -9,6 +9,7 @@ nav_order: 4
 
 #### Carnegie Mellon University
 Provided office hours, co-delivered lectures and recitations, designed and marked assignments for the graduate courses:
+- [Deep Reinforcement Learning (10-703)](https://cmudeeprl.github.io/703website_f23/) instructed by Katerina Fragkiadaki
 - [Advanced Deep Learning (10-707)](https://machinelearningcmu.github.io/S23-10707/) instructed by Ruslan Salakhutdinov
 - [Computational Ethics for NLP (11-830)](https://maartensap.com/11-830-Spring2023/) instructed by Maarten Sap and Emma Strubell
 - [Intermediate Deep Learning (10-617)](https://rsalakhucmu.github.io/10417-22/) instructed by Ruslan Salakhutdinov
