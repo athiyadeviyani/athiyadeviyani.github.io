@@ -21,6 +21,8 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
+I am currently at Netflix as a Machine Learning Research intern working on algorithmic identity modeling for recommender systems. Say hi if you're around the Bay Area! 🌁🌴
+
 I am a first-year PhD student at the [Language Technologies Institute](https://lti.cs.cmu.edu/) in 
 Carnegie Mellon University's School of Computer Science, advised by [Prof. Fernando Diaz](https://841.io/). My research interests are trustworthy machine learning and natural language processing with a focus on evaluation, and the long-term societal and cultural impacts of intelligent systems.
 
