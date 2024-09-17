@@ -21,7 +21,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am a second-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://lti.cs.cmu.edu/), advised by [Prof. Fernando Diaz](https://841.io/). My research surrounds trustworthy ML/NLP, with a focus on evaluation. My projects involve exploring quantitative methods to ensure we are measuring the _right_ things in the _right_ way. 
+I am a second-year PhD student at Carnegie Mellon University's [Language Technologies Institute](https://lti.cs.cmu.edu/), advised by [Prof. Fernando Diaz](https://841.io/). My research surrounds trustworthy ML/NLP, with a focus on evaluation. My projects involve exploring quantitative methods to ensure we are using the _right_ tools to measure the _right_ things in the _right_ way. 
 
 I am also a part-time researcher at Netflix, working on algorithmic identity modeling for recommender systems. I've also done several representation learning projects in industry, such as introducing graph-based neural embeddings and efficiently fine-tuning LLMs for Siri Search at Apple.
 
