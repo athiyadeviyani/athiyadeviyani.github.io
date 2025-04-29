@@ -9,6 +9,13 @@ display_categories: [research]
 horizontal: false
 ---
 
+<h2 class="year" >2025</h2>
+<b>Contextual Metric Meta-Evaluation by Measuring Local Metric Accuracy</b><br>
+Athiya Deviyani, Fernando Diaz<br>
+[pdf](https://aclanthology.org/2025.findings-naacl.276.pdf)&nbsp;|&nbsp;[poster](assets/pdf/934_Find_ContextualMetricMetaEvaluation_Deviyani_poster.pdf)
+<p style="font-size: 3px"></p>
+
+
 <h2 class="year" >2022</h2>
 <!-- <br> -->
 <b>Multimodal Emotion Recognition in Conversation</b><br>
