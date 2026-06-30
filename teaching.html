@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teaching — Athiya Deviyani</title>
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        if (saved === "dark") document.documentElement.setAttribute("data-theme", "dark");
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="icon" href="assets/img/prof_pic.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="index.html">Athiya Deviyani</a>
+      <div class="nav-group">
+        <nav class="site-nav">
+          <a href="index.html">about</a>
+          <a href="publications.html">publications</a>
+          <a href="teaching.html">teaching</a>
+          <a href="cv.html">cv</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <span class="icon-light">☾</span>
+          <span class="icon-dark">☀</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Teaching</h1>
+      <p class="page-intro">In reverse chronological order.</p>
+
+      <div class="teaching-block">
+        <h3>Carnegie Mellon University</h3>
+        <p>Office hours, co-delivered lectures and recitations, and assignment design and grading for:</p>
+        <ul>
+          <li>
+            <a href="https://cmudeeprl.github.io/703website_f23/" target="_blank" rel="noopener">Deep Reinforcement Learning (10-703)</a>
+            — instructed by Katerina Fragkiadaki
+            <ul>
+              <li>Delivered a lecture on Monte Carlo, Temporal Difference Learning, Q-Learning, Deep Q-Learning, Monte Carlo Tree Search, REINFORCE, and Actor-Critic (<a href="https://www.youtube.com/watch?v=lHiPvt7G75A" target="_blank" rel="noopener">video</a>)</li>
+            </ul>
+          </li>
+          <li><a href="https://machinelearningcmu.github.io/S23-10707/" target="_blank" rel="noopener">Advanced Deep Learning (10-707)</a> — instructed by Ruslan Salakhutdinov</li>
+          <li><a href="https://maartensap.com/11-830-Spring2023/" target="_blank" rel="noopener">Computational Ethics for NLP (11-830)</a> — instructed by Maarten Sap and Emma Strubell</li>
+          <li>
+            <a href="https://rsalakhucmu.github.io/10417-22/" target="_blank" rel="noopener">Intermediate Deep Learning (10-617)</a>
+            — instructed by Ruslan Salakhutdinov
+            <ul>
+              <li>Delivered a lecture on Generative Adversarial Networks (GANs) and Graph Convolutional Networks (GCNs) (<a href="https://www.youtube.com/watch?v=2yjFblT4WMg" target="_blank" rel="noopener">video</a>)</li>
+            </ul>
+          </li>
+          <li><a href="http://phontron.com/class/multiling2022/" target="_blank" rel="noopener">Multilingual Natural Language Processing (11-737)</a> — instructed by Graham Neubig, Alan W. Black, and Shinji Watanabe</li>
+          <li><a href="https://www.coursicle.com/cmu/courses/LTI/11631/" target="_blank" rel="noopener">Data Science Seminar (11-631)</a> — instructed by Eric H. Nyberg and Lori Levin</li>
+        </ul>
+      </div>
+
+      <div class="teaching-block">
+        <h3>The University of Edinburgh</h3>
+        <p>Tutorial design and delivery, assignment grading, and lab demonstrations for:</p>
+        <ul>
+          <li><a href="http://www-test.drps.ed.ac.uk/17-18/dpt/cxinfr11152.htm" target="_blank" rel="noopener">Introductory Applied Machine Learning (INFR10069, INFR11152)</a> — instructed by Nigel Goddard</li>
+          <li><a href="http://www.drps.ed.ac.uk/20-21/dpt/cxinfr08030.htm" target="_blank" rel="noopener">Foundations of Data Science (INFR08030)</a> — instructed by David Sterratt</li>
+          <li><a href="http://www.drps.ed.ac.uk/21-22/dpt/cxinfr08020.htm" target="_blank" rel="noopener">Cognitive Science (INFR08020)</a> — instructed by Matthias Hennig</li>
+          <li><a href="http://www.drps.ed.ac.uk/20-21/dpt/cxinfr10057.htm" target="_blank" rel="noopener">Software Testing (INFR10057)</a> — instructed by Ajitha Rajan</li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      &copy; <span id="year"></span> Athiya Deviyani
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
