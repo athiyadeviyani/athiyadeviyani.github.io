@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Font preview</title>
+  <meta name="description" content="Athiya Deviyani — PhD student at Carnegie Mellon University's Language Technologies Institute." />
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        if (saved === "dark") document.documentElement.setAttribute("data-theme", "dark");
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="icon" href="assets/img/prof_pic.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <a class="site-name" href="index.html">Athiya Deviyani</a>
+        <span class="site-tagline">PhD student, Language Technologies Institute, CMU</span>
+      </div>
+      <div class="nav-group">
+        <nav class="site-nav">
+          <a href="index.html">about</a>
+          <a href="publications.html">publications</a>
+          <a href="teaching.html">teaching</a>
+          <a href="cv.html">cv</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <span class="icon-light">☾</span>
+          <span class="icon-dark">☀</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <div class="bio">
+        <img class="bio-photo" src="assets/img/prof_pic.jpg" alt="Athiya Deviyani at her desk with her cat" />
+        <p>
+          I am a PhD student at Carnegie Mellon University's
+          <a href="https://lti.cs.cmu.edu/" target="_blank" rel="noopener">Language Technologies Institute</a>,
+          advised by <a href="https://841.io/" target="_blank" rel="noopener">Prof. Fernando Diaz</a>. My research
+          is in trustworthy ML/NLP, focused on developing robust and rigorous evaluation frameworks. My projects
+          explore quantitative methods to make sure we're using the right tools to measure the right things in the
+          right way.
+        </p>
+        <p>
+          I am also a part-time researcher at Netflix, working on algorithmic identity modeling for recommender
+          systems. I've also done representation learning work in industry, including graph-based neural embeddings
+          and efficient LLM fine-tuning for Siri Search at Apple.
+        </p>
+        <p>
+          Before that, I worked with <a href="http://www.cs.cmu.edu/~awb/" target="_blank" rel="noopener">Prof. Alan W. Black</a>
+          and <a href="http://maartensap.com" target="_blank" rel="noopener">Prof. Maarten Sap</a> during my master's
+          at CMU, and with <a href="https://homepages.inf.ed.ac.uk/arajan/" target="_blank" rel="noopener">Prof. Ajitha Rajan</a>
+          and <a href="https://steverw.com/" target="_blank" rel="noopener">Prof. Steven Wilson</a> during my undergrad
+          at The University of Edinburgh.
+        </p>
+
+        <div class="social-row">
+          <a href="mailto:adeviyan@cs.cmu.edu">email</a>
+          <a href="https://github.com/athiyadeviyani" target="_blank" rel="noopener">github</a>
+          <a href="https://twitter.com/AthiyaD" target="_blank" rel="noopener">twitter</a>
+          <a href="https://www.linkedin.com/in/athiyadeviyani" target="_blank" rel="noopener">linkedin</a>
+          <a href="https://scholar.google.com/citations?user=qIJSVxgAAAAJ" target="_blank" rel="noopener">scholar</a>
+        </div>
+      </div>
+
+
+      <h2 class="section-title">News</h2>
+
+      <div class="news-scroll">
+        <ul class="ranked-list">
+
+          <li>
+            <span class="rank">2026</span>
+            <div>
+              <div class="meta"><span class="date">Apr 29</span></div>
+              <p>Our paper <a href="https://arxiv.org/pdf/2605.25998" target="_blank" rel="noopener">"Causal methods for LLM development and evaluation"</a> is accepted at KDD (Blue Sky Ideas Track) 🇰🇷!</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2026</span>
+            <div>
+              <div class="meta"><span class="date">May 7</span></div>
+              <p>New preprint "<a href="https://arxiv.org/abs/2605.06283" target="_blank" rel="noopener">Quantifying the Statistical Effect of Rubric Modifications on Human-Authorater Agreement</a>" is available on arXiv! 📚</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2026</span>
+            <div>
+              <div class="meta"><span class="date">Apr 30</span></div>
+              <p>Our paper <a href="https://arxiv.org/abs/2601.21816" target="_blank" rel="noopener">"Nonparametric LLM Evaluation from Preference Data"</a> is accepted at ICML 🇰🇷!</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2025</span>
+            <div>
+              <div class="meta"><span class="date">Apr 29</span></div>
+              <p>Excited to be in Albuquerque for NAACL to present a
+                <a href="assets/papers/934_Find_ContextualMetricMetaEvaluation_Deviyani_poster.pdf" target="_blank">poster</a>
+                on our paper
+                <a href="https://aclanthology.org/2025.findings-naacl.276/" target="_blank" rel="noopener">"Contextual Metric Meta-Evaluation by Measuring Local Metric Accuracy"</a> 🏜️!</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2024</span>
+            <div>
+              <div class="meta"><span class="date">May 30</span></div>
+              <p>I will be presenting our poster on
+                <a href="assets/papers/PRS_Poster.pdf" target="_blank">"Measuring Local Accuracies to Assess Evaluation Metrics"</a>
+                at the
+                <a href="https://prs2024.splashthat.com/" target="_blank" rel="noopener">2024 Netflix Workshop on Personalization, Recommendation and Search (PRS)</a>!</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2024</span>
+            <div>
+              <div class="meta"><span class="date">May 20</span></div>
+              <p>Started my Machine Learning Research internship at the Algorithmic Identity team at Netflix! 🎬</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2023</span>
+            <div>
+              <div class="meta"><span class="date">Aug 25</span></div>
+              <p>Started my PhD at the Language Technologies Institute at Carnegie Mellon University's School of Computer Science! 👩🏻‍🔬👩🏻‍💻</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2023</span>
+            <div>
+              <div class="meta"><span class="date">May 22</span></div>
+              <p>Re-joined the Information Intelligence (Search Quality) team at Apple for my AI/ML internship 👩🏻‍💻🍎</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2023</span>
+            <div>
+              <div class="meta"><span class="date">Jan 05</span></div>
+              <p>Our paper
+                <a href="assets/papers/Men_Have_Feelings_Too.pdf" target="_blank">"Men Have Feelings Too: Debiasing Sentiment Analyzers using Sequence Generative Adversarial Networks"</a>
+                is accepted to the
+                <a href="https://amulyayadav.github.io/AI4SG2023/" target="_blank" rel="noopener">Artificial Intelligence for Social Good Workshop</a>
+                at AAAI 2023 as an <em>oral presentation</em> 🎉</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2022</span>
+            <div>
+              <div class="meta"><span class="date">Jun 24</span></div>
+              <p>Our paper "Text Normalization for Speech Systems for All Languages" is accepted to the
+                <a href="https://s4sg-workshop.github.io/" target="_blank" rel="noopener">Speech for Social Good Workshop</a>
+                at INTERSPEECH 2022 🎉</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2022</span>
+            <div>
+              <div class="meta"><span class="date">May 23</span></div>
+              <p>Started my AI/ML internship with the Information Intelligence (Search Quality) team at Apple 👩🏻‍💻🍎</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2021</span>
+            <div>
+              <div class="meta"><span class="date">Sep 26</span></div>
+              <p><a href="https://www.cs.cmu.edu/news/2021/twerkout" target="_blank" rel="noopener">Won BigRed//Hacks</a> at Cornell University with my new friends at CMU 🤓</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2021</span>
+            <div>
+              <div class="meta"><span class="date">Aug 30</span></div>
+              <p>Started my Masters in Artificial Intelligence and Innovation at Carnegie Mellon University 🇺🇸</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2021</span>
+            <div>
+              <div class="meta"><span class="date">Jul 02</span></div>
+              <p>Graduated
+                <a href="https://drive.google.com/file/d/1ZbGUiQ8dmSS_IrrR_3tKI6o2sm6gGiW1/view" target="_blank" rel="noopener">top of my class</a>
+                with first class honors from The University of Edinburgh with a BSc in Artificial Intelligence and Computer Science! 👩🏻‍🎓</p>
+            </div>
+          </li>
+
+          <li>
+            <span class="rank">2021</span>
+            <div>
+              <div class="meta"><span class="date">Jun 22</span></div>
+              <p>My undergraduate thesis "Assessing Dataset Bias in Computer Vision" received an
+                <a href="https://www.ed.ac.uk/informatics/undergraduate/our-degrees/outstanding-undergraduate-projects" target="_blank" rel="noopener">outstanding</a>
+                classification (blind double marking) from the School of Informatics at the University of Edinburgh 🎉</p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+      <h2 class="section-title">Selected Publications</h2>
+
+      <div class="selected-pub">
+        <p class="pub-title">Contextual Metric Meta-Evaluation by Measuring Local Metric Accuracy</p>
+        <p class="pub-authors"><span class="me">Athiya Deviyani</span>, Fernando Diaz</p>
+        <p class="pub-venue">Findings of NAACL 2025</p>
+        <div class="pub-links">
+          <a href="https://aclanthology.org/2025.findings-naacl.276.pdf" target="_blank" rel="noopener">pdf</a>
+          <a href="assets/papers/934_Find_ContextualMetricMetaEvaluation_Deviyani_poster.pdf" target="_blank">poster</a>
+        </div>
+      </div>
+
+      <!-- <div class="selected-pub">
+        <p class="pub-title">Men Have Feelings Too: Debiasing Sentiment Analyzers using Sequence Generative Adversarial Networks</p>
+        <p class="pub-authors"><span class="me">Athiya Deviyani</span>, Mehak Malik, Haris Widjaja, Dan Hoskins</p>
+        <p class="pub-venue">AI for Social Good Workshop, AAAI 2023 — oral presentation</p>
+        <div class="pub-links">
+          <a href="assets/papers/Men_Have_Feelings_Too.pdf" target="_blank">pdf</a>
+          <a href="https://github.com/athiyadeviyani/compethics-project" target="_blank" rel="noopener">code</a>
+        </div>
+      </div> -->
+
+      <div class="section-link">
+        <a href="publications.html">see all publications</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      &copy; <span id="year"></span> Athiya Deviyani
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+
+<style>
+#pick{position:fixed;right:16px;bottom:16px;z-index:99;background:#fff;border:1px solid #d4d4d4;border-radius:10px;padding:12px 14px;font:12.5px -apple-system,BlinkMacSystemFont,sans-serif;color:#222;box-shadow:0 2px 14px rgba(0,0,0,.12);width:300px;max-height:calc(100vh - 32px);overflow:auto}
+#pick b{display:block;margin:8px 0 3px}#pick b:first-of-type{margin-top:0}#pick select{width:100%;font-size:12.5px}
+#pick .row{display:flex;gap:8px;align-items:center}#pick .row select{flex:1}
+#pick .hint{color:#777;font-size:11.5px;margin-top:8px;line-height:1.45}
+#pick .sws{display:grid;grid-template-columns:repeat(9,1fr);gap:5px}
+#pick .sw{width:100%;aspect-ratio:1;border-radius:5px;border:2px solid transparent;cursor:pointer;padding:0;outline:none}
+#pick .sw.on{box-shadow:0 0 0 2px #fff inset;border-color:#222}
+#pick .dot{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:5px}
+#pick .x{position:absolute;right:10px;top:6px;cursor:pointer;color:#999}
+#pick input[type=color]{width:34px;height:22px;border:1px solid #ccc;border-radius:4px;padding:0;background:none}
+body.ul a{text-decoration:underline;text-decoration-color:#bbb}
+body.acc-name .site-name{color:var(--accent)!important}
+body.acc-labels .section-title{color:var(--accent)!important}
+body.acc-titles .pub-title{color:var(--accent)!important}
+</style>
+<div id="pick"><span class="x" onclick="this.parentNode.style.display='none'">×</span>
+  <b>Text font</b><select id="fontsel"><optgroup label="★ Shortlist — softer, less boxy"><option value="Nunito Sans|Sans">★ Nunito Sans — soft, rounded, airy</option><option value="Source Sans 3|Sans">★ Source Sans 3 — humanist, narrow, very academic</option><option value="Lato|Sans">★ Lato — warm and round</option><option value="Figtree|Sans">★ Figtree — friendly, clean</option><option value="Albert Sans|Sans">★ Albert Sans — open, gentle</option><option value="Mulish|Sans">★ Mulish — light and airy</option><option value="Newsreader|Serif">★ Newsreader — editorial, reads like a paper</option><option value="Literata|Serif">★ Literata — warm book serif</option><option value="Source Serif 4|Serif">★ Source Serif 4 — classic academic</option><option value="Spectral|Serif">★ Spectral — elegant, light</option><option value="EB Garamond|Serif">★ EB Garamond — traditional, bookish</option></optgroup><optgroup label="All sans"><option value="Inter|Sans">Inter</option><option value="Geist|Sans">Geist</option><option value="Source Sans 3|Sans">Source Sans 3</option><option value="IBM Plex Sans|Sans">IBM Plex Sans</option><option value="DM Sans|Sans">DM Sans</option><option value="Lato|Sans">Lato</option><option value="Open Sans|Sans">Open Sans</option><option value="Noto Sans|Sans">Noto Sans</option><option value="Nunito Sans|Sans">Nunito Sans</option><option value="Nunito|Sans">Nunito</option><option value="Work Sans|Sans">Work Sans</option><option value="Public Sans|Sans">Public Sans</option><option value="Manrope|Sans">Manrope</option><option value="Figtree|Sans">Figtree</option><option value="Plus Jakarta Sans|Sans">Plus Jakarta Sans</option><option value="Outfit|Sans">Outfit</option><option value="Hanken Grotesk|Sans">Hanken Grotesk</option><option value="Instrument Sans|Sans">Instrument Sans</option><option value="Albert Sans|Sans">Albert Sans</option><option value="Onest|Sans">Onest</option><option value="Karla|Sans">Karla</option><option value="Mulish|Sans">Mulish</option><option value="Raleway|Sans">Raleway</option><option value="Lexend|Sans">Lexend</option><option value="Be Vietnam Pro|Sans">Be Vietnam Pro</option><option value="Urbanist|Sans">Urbanist</option><option value="Atkinson Hyperlegible|Sans">Atkinson Hyperlegible</option><option value="Red Hat Text|Sans">Red Hat Text</option><option value="Libre Franklin|Sans">Libre Franklin</option><option value="Rubik|Sans">Rubik</option><option value="Sora|Sans">Sora</option><option value="Quicksand|Sans">Quicksand</option></optgroup><optgroup label="All serif"><option value="Source Serif 4|Serif">Source Serif 4</option><option value="Newsreader|Serif">Newsreader</option><option value="Literata|Serif">Literata</option><option value="Spectral|Serif">Spectral</option><option value="Crimson Pro|Serif">Crimson Pro</option><option value="EB Garamond|Serif">EB Garamond</option><option value="Cormorant Garamond|Serif">Cormorant Garamond</option><option value="Lora|Serif">Lora</option><option value="Libre Baskerville|Serif">Libre Baskerville</option><option value="Merriweather|Serif">Merriweather</option><option value="PT Serif|Serif">PT Serif</option><option value="Fraunces|Serif">Fraunces</option><option value="Gelasio|Serif">Gelasio</option><option value="Alegreya|Serif">Alegreya</option><option value="STIX Two Text|Serif">STIX Two Text</option><option value="Instrument Serif|Serif">Instrument Serif</option><option value="Young Serif|Serif">Young Serif</option></optgroup><optgroup label="All mono"><option value="IBM Plex Mono|Mono">IBM Plex Mono</option><option value="JetBrains Mono|Mono">JetBrains Mono</option><option value="DM Mono|Mono">DM Mono</option></optgroup></select>
+  <b>Text size</b><div class="row"><input id="sizesel" type="range" min="14" max="17" step="0.5" value="15" style="flex:1"><span id="sizeval">15px</span></div>
+  <b>Name font</b><select id="namesel"><option value="">same as text</option><optgroup label="★ Shortlist"><option value="Newsreader|Serif">Newsreader</option><option value="Spectral|Serif">Spectral</option><option value="Literata|Serif">Literata</option><option value="Source Serif 4|Serif">Source Serif 4</option><option value="EB Garamond|Serif">EB Garamond</option><option value="Instrument Serif|Serif">Instrument Serif</option><option value="Fraunces|Serif">Fraunces</option></optgroup><optgroup label="All sans"><option value="Inter|Sans">Inter</option><option value="Geist|Sans">Geist</option><option value="Source Sans 3|Sans">Source Sans 3</option><option value="IBM Plex Sans|Sans">IBM Plex Sans</option><option value="DM Sans|Sans">DM Sans</option><option value="Lato|Sans">Lato</option><option value="Open Sans|Sans">Open Sans</option><option value="Noto Sans|Sans">Noto Sans</option><option value="Nunito Sans|Sans">Nunito Sans</option><option value="Nunito|Sans">Nunito</option><option value="Work Sans|Sans">Work Sans</option><option value="Public Sans|Sans">Public Sans</option><option value="Manrope|Sans">Manrope</option><option value="Figtree|Sans">Figtree</option><option value="Plus Jakarta Sans|Sans">Plus Jakarta Sans</option><option value="Outfit|Sans">Outfit</option><option value="Hanken Grotesk|Sans">Hanken Grotesk</option><option value="Instrument Sans|Sans">Instrument Sans</option><option value="Albert Sans|Sans">Albert Sans</option><option value="Onest|Sans">Onest</option><option value="Karla|Sans">Karla</option><option value="Mulish|Sans">Mulish</option><option value="Raleway|Sans">Raleway</option><option value="Lexend|Sans">Lexend</option><option value="Be Vietnam Pro|Sans">Be Vietnam Pro</option><option value="Urbanist|Sans">Urbanist</option><option value="Atkinson Hyperlegible|Sans">Atkinson Hyperlegible</option><option value="Red Hat Text|Sans">Red Hat Text</option><option value="Libre Franklin|Sans">Libre Franklin</option><option value="Rubik|Sans">Rubik</option><option value="Sora|Sans">Sora</option><option value="Quicksand|Sans">Quicksand</option></optgroup><optgroup label="All serif"><option value="Source Serif 4|Serif">Source Serif 4</option><option value="Newsreader|Serif">Newsreader</option><option value="Literata|Serif">Literata</option><option value="Spectral|Serif">Spectral</option><option value="Crimson Pro|Serif">Crimson Pro</option><option value="EB Garamond|Serif">EB Garamond</option><option value="Cormorant Garamond|Serif">Cormorant Garamond</option><option value="Lora|Serif">Lora</option><option value="Libre Baskerville|Serif">Libre Baskerville</option><option value="Merriweather|Serif">Merriweather</option><option value="PT Serif|Serif">PT Serif</option><option value="Fraunces|Serif">Fraunces</option><option value="Gelasio|Serif">Gelasio</option><option value="Alegreya|Serif">Alegreya</option><option value="STIX Two Text|Serif">STIX Two Text</option><option value="Instrument Serif|Serif">Instrument Serif</option><option value="Young Serif|Serif">Young Serif</option></optgroup><optgroup label="All mono"><option value="IBM Plex Mono|Mono">IBM Plex Mono</option><option value="JetBrains Mono|Mono">JetBrains Mono</option><option value="DM Mono|Mono">DM Mono</option></optgroup></select>
+  <b>Name weight</b><select id="weightsel"><option value="400">regular</option><option value="500">medium</option><option value="600">semibold</option><option value="700" selected>bold</option></select>
+  <b>Accent color</b><div class="sws"><button class="sw" data-i="0" title="Magenta (current)" style="background:#b0185a"></button><button class="sw" data-i="1" title="Berry" style="background:#9d174d"></button><button class="sw" data-i="2" title="Raspberry" style="background:#be185d"></button><button class="sw" data-i="3" title="Rose" style="background:#be123c"></button><button class="sw" data-i="4" title="Dusty rose" style="background:#9f4a5f"></button><button class="sw" data-i="5" title="Mauve" style="background:#8e5a7a"></button><button class="sw" data-i="6" title="Orchid" style="background:#a21caf"></button><button class="sw" data-i="7" title="Carnegie red" style="background:#c41230"></button><button class="sw" data-i="8" title="Brick red" style="background:#c0392b"></button><button class="sw" data-i="9" title="Oxblood" style="background:#8b1e3f"></button><button class="sw" data-i="10" title="Wine" style="background:#7f1d1d"></button><button class="sw" data-i="11" title="Rust" style="background:#b7410e"></button><button class="sw" data-i="12" title="Burnt orange" style="background:#c2410c"></button><button class="sw" data-i="13" title="Terracotta" style="background:#b4532a"></button><button class="sw" data-i="14" title="Sienna" style="background:#a0522d"></button><button class="sw" data-i="15" title="Amber" style="background:#b45309"></button><button class="sw" data-i="16" title="Ochre" style="background:#8a5a00"></button><button class="sw" data-i="17" title="Brown" style="background:#92400e"></button><button class="sw" data-i="18" title="Moss" style="background:#4d7c0f"></button><button class="sw" data-i="19" title="Olive" style="background:#5a6b2f"></button><button class="sw" data-i="20" title="Sage" style="background:#4f6f52"></button><button class="sw" data-i="21" title="Forest" style="background:#2d6a4f"></button><button class="sw" data-i="22" title="Pine" style="background:#166534"></button><button class="sw" data-i="23" title="Emerald" style="background:#047857"></button><button class="sw" data-i="24" title="Jade" style="background:#2e7d6b"></button><button class="sw" data-i="25" title="Teal" style="background:#0f766e"></button><button class="sw" data-i="26" title="Cyan" style="background:#0e7490"></button><button class="sw" data-i="27" title="Petrol" style="background:#1d5c6e"></button><button class="sw" data-i="28" title="Ocean" style="background:#0369a1"></button><button class="sw" data-i="29" title="Steel blue" style="background:#1e5a8a"></button><button class="sw" data-i="30" title="Link blue" style="background:#1a5fb4"></button><button class="sw" data-i="31" title="Cobalt" style="background:#1d4ed8"></button><button class="sw" data-i="32" title="Navy" style="background:#1f3f76"></button><button class="sw" data-i="33" title="Indigo" style="background:#4338ca"></button><button class="sw" data-i="34" title="Royal" style="background:#3730a3"></button><button class="sw" data-i="35" title="Lavender grey" style="background:#6b5b95"></button><button class="sw" data-i="36" title="Violet" style="background:#6d28d9"></button><button class="sw" data-i="37" title="Plum" style="background:#7a3e9d"></button><button class="sw" data-i="38" title="Grape" style="background:#6b21a8"></button><button class="sw" data-i="39" title="Slate" style="background:#475569"></button><button class="sw" data-i="40" title="Charcoal" style="background:#333333"></button><button class="sw" data-i="41" title="Black, underlined" style="background:#111111"></button></div>
+  <div class="row" style="margin-top:6px"><span>custom:</span><input type="color" id="custom" value="#b0185a"></div>
+  <b>Greys</b><select id="neusel"><option>Neutral greys</option><option>Warm greys</option><option>Cool greys</option></select>
+  <b>Accent used on</b><select id="placesel"><option value="0">links only</option><option value="1">links + name</option><option value="2">links + section labels</option><option value="3">links + name + section labels</option><option value="4">links + name + paper titles</option></select>
+  <div id="now" class="hint"></div>
+  <div class="hint">← → text font · [ ] accent color</div>
+</div>
+<script>
+(function(){
+  var ACC=[["Magenta (current)", "#b0185a"], ["Berry", "#9d174d"], ["Raspberry", "#be185d"], ["Rose", "#be123c"], ["Dusty rose", "#9f4a5f"], ["Mauve", "#8e5a7a"], ["Orchid", "#a21caf"], ["Carnegie red", "#c41230"], ["Brick red", "#c0392b"], ["Oxblood", "#8b1e3f"], ["Wine", "#7f1d1d"], ["Rust", "#b7410e"], ["Burnt orange", "#c2410c"], ["Terracotta", "#b4532a"], ["Sienna", "#a0522d"], ["Amber", "#b45309"], ["Ochre", "#8a5a00"], ["Brown", "#92400e"], ["Moss", "#4d7c0f"], ["Olive", "#5a6b2f"], ["Sage", "#4f6f52"], ["Forest", "#2d6a4f"], ["Pine", "#166534"], ["Emerald", "#047857"], ["Jade", "#2e7d6b"], ["Teal", "#0f766e"], ["Cyan", "#0e7490"], ["Petrol", "#1d5c6e"], ["Ocean", "#0369a1"], ["Steel blue", "#1e5a8a"], ["Link blue", "#1a5fb4"], ["Cobalt", "#1d4ed8"], ["Navy", "#1f3f76"], ["Indigo", "#4338ca"], ["Royal", "#3730a3"], ["Lavender grey", "#6b5b95"], ["Violet", "#6d28d9"], ["Plum", "#7a3e9d"], ["Grape", "#6b21a8"], ["Slate", "#475569"], ["Charcoal", "#333333"], ["Black, underlined", "#111111"]], NEU={"Neutral greys": {}, "Warm greys": {"--ink": "#2b2622", "--heading": "#1c1917", "--ink-soft": "#5c534b", "--muted": "#8c8177", "--rule": "#ece6df"}, "Cool greys": {"--ink": "#1e2530", "--heading": "#0f172a", "--ink-soft": "#4b5563", "--muted": "#7b8594", "--rule": "#e3e8ef"}}, loaded={}, acc=0, custom=null;
+  var $=function(id){return document.getElementById(id)};
+  var fsel=$('fontsel'), nsel=$('namesel'), wsel=$('weightsel'), gsel=$('neusel'), psel=$('placesel'), size=$('sizesel'), now=$('now');
+  var sws=[].slice.call(document.querySelectorAll('#pick .sw'));
+  var keys=['--ink','--heading','--ink-soft','--muted','--rule'], base={};
+  keys.forEach(function(k){base[k]=getComputedStyle(document.documentElement).getPropertyValue(k).trim();});
+  function load(name){
+    if(loaded[name])return; loaded[name]=1;
+    var n=name.replace(/ /g,'+'), specs=[':ital,wght@0,400;0,500;0,600;0,700;1,400',':ital,wght@0,400;0,600;0,700;1,400',':ital,wght@0,400;0,700;1,400',':wght@400;500;600;700',':wght@400;700',''];
+    (function t(i){ if(i>=specs.length)return; var l=document.createElement('link'); l.rel='stylesheet';
+      l.href='https://fonts.googleapis.com/css2?family='+n+specs[i]+'&display=swap';
+      l.onerror=function(){l.remove();t(i+1);}; document.head.appendChild(l); })(0);
+  }
+  function stack(v){ var p=v.split('|'); load(p[0]); return '"'+p[0]+'", '+(p[1]==='Serif'?'Georgia, serif':p[1]==='Mono'?'ui-monospace, monospace':'-apple-system, sans-serif'); }
+  function apply(){
+    var r=document.documentElement.style, b=document.body, name=document.querySelector('.site-name');
+    r.setProperty('--font', stack(fsel.value));
+    r.fontSize=size.value+'px'; $('sizeval').textContent=size.value+'px';
+    name.style.fontFamily = nsel.value ? stack(nsel.value) : '';
+    name.style.fontWeight = wsel.value;
+    var color = custom || ACC[acc][1], label = custom ? 'custom '+custom : ACC[acc][0];
+    r.setProperty('--accent', color);
+    sws.forEach(function(s,i){ s.classList.toggle('on', !custom && i===acc); });
+    var g=NEU[gsel.value]; keys.forEach(function(k){ r.setProperty(k, g[k]||base[k]); });
+    b.classList.toggle('ul', !custom && color==='#111111');
+    var p=+psel.value;
+    b.classList.toggle('acc-name', p===1||p===3||p===4);
+    b.classList.toggle('acc-labels', p===2||p===3);
+    b.classList.toggle('acc-titles', p===4);
+    now.innerHTML='<span class="dot" style="background:'+color+'"></span><b style="display:inline;margin:0">Current:</b> '+fsel.value.split('|')[0]+' '+size.value+'px'+
+      (nsel.value?' + '+nsel.value.split('|')[0]+' name':'')+' ('+wsel.options[wsel.selectedIndex].text+') · '+label+' · '+gsel.value+' · accent on '+psel.options[p].text;
+  }
+  function step(sel,d){ sel.selectedIndex=(sel.selectedIndex+d+sel.options.length)%sel.options.length; apply(); }
+  sws.forEach(function(s,i){ s.onclick=function(){ acc=i; custom=null; apply(); }; });
+  $('custom').oninput=function(){ custom=this.value; apply(); };
+  [fsel,nsel,wsel,gsel,psel].forEach(function(s){s.onchange=apply;}); size.oninput=apply;
+  document.addEventListener('keydown',function(e){
+    if(e.target.tagName==='SELECT'||e.target.tagName==='INPUT')return;
+    if(e.key==='ArrowRight')step(fsel,1); else if(e.key==='ArrowLeft')step(fsel,-1);
+    else if(e.key===']'||e.key==='['){ custom=null; acc=(acc+(e.key===']'?1:-1)+ACC.length)%ACC.length; apply(); }
+  });
+  apply();
+})();
+</script>
+</body>
+</html>
